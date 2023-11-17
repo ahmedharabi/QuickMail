@@ -31,14 +31,14 @@ def main(page: ft.Page):
         if(subjectName==""):
             return ""
 
-        subject_teacher={"Algebra":"aymen.hadjsalem@isimg.tn"
-            ,"Calculus":"gamerthe462@gmail.com"
-            ,"DataBases":"olfa.jemai@isimg.tn"
-            ,"Language theory":"hela.lajmi@isimg.tn"
-            ,"Java I":"sofiane.hachicha@isimg.tn"
-            ,"C++":"assili.moha@gmail.com"
-            ,"Os 2":"ali.othman@isimg.tn"
-            ,"Networks":"amani.chaker@isimg.tn"}
+        subject_teacher={"Algebra":" "
+            ,"Calculus":" "
+            ,"DataBases":" "
+            ,"Language theory":" "
+            ,"Java I":" "
+            ,"C++":" "
+            ,"Os 2":" "
+            ,"Networks":" "}
         return subject_teacher[subjectName]
 
     def deleteFields(e:ControlEvent):
