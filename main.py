@@ -97,4 +97,4 @@ def main(page: ft.Page):
     page.add(ft.Column([myEmailAdress, password,ddMenu, object, subject,ft.Row([deletedEverythingBTN,sendEmailBTN]),ft.Row([emailStatus])]))
 
 
-ft.app(target=main,assets_dir="icons")
+ft.app(target=main)
