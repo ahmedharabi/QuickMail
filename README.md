@@ -2,7 +2,7 @@
 # Mail Sending Python App
 
 This Python application allows users to send emails using Gmail and provides a convenient way to save and access the email addresses of teachers without the need to remember them each time.
-![screenshot](https://github.com/ahmedharabi/QuickMail/screenshot.png)
+![screenshot](screenshot.png)
 
 
 ## Features
