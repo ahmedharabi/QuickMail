@@ -20,33 +20,26 @@ This Python application allows users to send emails using Gmail and provides a c
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/mail-sending-app.git
+    git clone https://github.com/ahmedharabi/QuickMail.git
     ```
 
 2. Install dependencies:
 
     ```bash
-    pip install -r requirements.txt
+    pip install flet
     ```
 
-## Configuration
-
-1. Obtain Google API credentials:
-    - Go to the Google Developers Console (https://console.developers.google.com/).
-    - Create a new project and enable the Gmail API.
-    - Create OAuth2 credentials and download the `credentials.json` file.
-
-2. Place the downloaded `credentials.json` file in the root directory of the application.
 
 ## Usage
 
 1. Run the application:
 
     ```bash
-    python app.py
+    python main.py
     ```
 
 2. Follow the on-screen prompts to send emails and manage teacher email addresses.
+3. to manage your teachers' email adresses you can add them to "subject_teacher"
 
 ### Usage Examples
 
@@ -56,12 +49,6 @@ This Python application allows users to send emails using Gmail and provides a c
 2. Choose the option to send an email.
 3. Enter the recipient's email address (you can choose a saved teacher's email).
 4. Compose the email content and send.
-
-### Managing Teacher Emails
-
-1. Run the application.
-2. Choose the option to manage teacher emails.
-3. Add, delete, or view the list of saved teacher emails.
 
 ## Disclaimer
 
